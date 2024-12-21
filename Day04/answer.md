@@ -38,6 +38,7 @@ In shell scripting, **`#!/bin/bash`** and **`#!/bin/sh`** are shebangs that tell
 - Use **`#!/bin/sh`** if you're aiming for portability across various UNIX-like systems or your script doesn't need advanced Bash features.
 
 - Write a Shell Script that prints `I will complete #90DaysOfDevOps challenge`.
-## ANS :-
-    ![Screenshot 2024-12-21 165454](https://github.com/user-attachments/assets/ac45a721-c1d2-473d-811d-7382dc916588)
+## ANS 
+![Image](Day04/image/Screenshot 2024-12-21 165454.png)
+
 
