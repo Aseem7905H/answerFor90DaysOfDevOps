@@ -39,6 +39,6 @@ In shell scripting, **`#!/bin/bash`** and **`#!/bin/sh`** are shebangs that tell
 
 - Write a Shell Script that prints `I will complete #90DaysOfDevOps challenge`.
 ## ANS 
-![Image](Day04/image/Screenshot 2024-12-21 165454.png)
+![Image](Day04/image/Screenshot%2024-12-21%165454.png)
 
 
