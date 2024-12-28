@@ -41,9 +41,11 @@ In shell scripting, **`#!/bin/bash`** and **`#!/bin/sh`** are shebangs that tell
 ## ANS 
   ![Image](image/task01.png)
 
--Task 4: Write a Shell Script that takes user input, input from arguments, and prints the variables.
- #ANS
+- Task 4: Write a Shell Script that takes user input, input from arguments, and prints the variables.
+ # ANS
  ![Image](image/input_argument.png)
  ![Image](image/task02.png)
  
-
+- Task 5: Provide an example of an If-Else statement in Shell Scripting by comparing two numbers.
+# ANS 
+ ![Image](image/task03.png)
