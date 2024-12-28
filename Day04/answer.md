@@ -41,6 +41,9 @@ In shell scripting, **`#!/bin/bash`** and **`#!/bin/sh`** are shebangs that tell
 ## ANS 
   ![Image](image/task01.png)
 
-
-
+-Task 4: Write a Shell Script that takes user input, input from arguments, and prints the variables.
+ #ANS
+ ![Image](image/input_argument.png)
+ ![Image](image/task02.png)
+ 
 
