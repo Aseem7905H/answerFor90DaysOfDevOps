@@ -27,11 +27,12 @@
 
 5. **Using Built-in Variables**
    - Bash provides several built-in variables that hold useful information. Your task is to create a bash script that utilizes at least three different built-in variables to display relevant information.
-
-   **Answer**
+     
+  **Answer**
 
    ![image](image/built_in_variable.png)
    - output.
+     
    ![image](image/out_built.png)
            
 
