@@ -30,9 +30,12 @@
 
    **Answer**
 
-   ![image](image/built_in_variable.png)     
+   ![image](image/built_in_variable.png)
+   - output
+   ![image](image/out_built.png)
+           
 
-6. **Wildcards**
+7. **Wildcards**
    - Wildcards are special characters used to perform pattern matching when working with files. Your task is to create a bash script that utilizes wildcards to list all the files with a specific extension in a directory.
 
    **Answer**
