@@ -162,4 +162,5 @@ Systemctl is used to examine and control the state of the “systemd” system a
 **if you shaw it**
  ![image](image/q.png)
  - then enter 
-     ```q
+     ```bash
+        q
