@@ -159,7 +159,7 @@ Systemctl is used to examine and control the state of the “systemd” system a
    ![image](image/journalctlJenkins.png)
 
 
-**if you shaw it
-![image](image/q.png)
-  then enter 
-     ```q
+**if you shaw it**
+ ![image](image/q.png)
+ - then enter 
+     ``` q
