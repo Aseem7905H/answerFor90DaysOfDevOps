@@ -31,7 +31,7 @@
    **Answer**
 
    ![image](image/built_in_variable.png)
-   - output .
+   - output.
    ![image](image/out_built.png)
            
 
