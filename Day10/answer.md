@@ -1,3 +1,7 @@
+Here’s the corrected and well-formatted version of your markdown file for the log analyzer and report generator task:
+
+---
+
 # Day 10 Answers: Log Analyzer and Report Generator
 
 ## Scenario
@@ -9,13 +13,9 @@ You are a system administrator responsible for managing a network of servers. Ev
 Write a Bash script that automates the process of analyzing log files and generating a daily summary report. The script should perform the following steps:
 
 1. **Input:** The script should take the path to the log file as a command-line argument.
-
 2. **Error Count:** Analyze the log file and count the number of error messages. An error message can be identified by a specific keyword (e.g., "ERROR" or "Failed"). Print the total error count.
-
 3. **Critical Events:** Search for lines containing the keyword "CRITICAL" and print those lines along with the line number.
-
 4. **Top Error Messages:** Identify the top 5 most common error messages and display them along with their occurrence count.
-
 5. **Summary Report:** Generate a summary report in a separate text file. The report should include:
    - Date of analysis
    - Log file name
@@ -24,17 +24,18 @@ Write a Bash script that automates the process of analyzing log files and genera
    - Top 5 error messages with their occurrence count
    - List of critical events with line numbers
 
-   <h2>Answer</h2>
+---
 
-    
+## Solution
 
-   - **Bash Code for Reference.**
-     ```bash
-     #!/bin/bash
+### Bash Script
+
+```bash
+#!/bin/bash
 
 # Function to display usage
 usage() {
-    echo "Usage: $0 /root/logs/day10.log"
+    echo "Usage: $0 /path/to/logfile.log"
     exit 1
 }
 
@@ -100,24 +101,37 @@ echo "Log file has been moved to $ARCHIVE_DIR."
 
 # Print the summary report
 cat "$SUMMARY_REPORT"
+```
 
-     
+---
 
-   - <h2>Output</h2>
+## Output
 
-   ![image](image/logs.png)
+- The script will analyze the log file and generate a report named `summary_report_YYYY-MM-DD.txt`, where `YYYY-MM-DD` is the current date.
 
-6. **Optional Enhancement:** Add a feature to automatically archive or move processed log files to a designated directory after analysis.
+Here is a sample output of the generated summary report:
+
+ ![image](image/logs.png)
+
+---
+
+## Optional Enhancement
+
+- The script includes an optional feature to automatically archive or move the processed log files to a designated directory (`processed_logs`) after the analysis is complete.
+
+---
 
 ## Tips
 
 - Use `grep`, `awk`, and other command-line tools to process the log file.
 - Utilize arrays or associative arrays to keep track of error messages and their counts.
-- Use appropriate error handling to handle cases where the log file doesn't exist or other issues arise.
+- Add appropriate error handling to manage cases where the log file doesn’t exist or other issues arise.
+
+---
 
 ## Sample Log File
 
-A sample log file named `sample_log.log` has been provided in the same directory as this challenge file. You can use this file to test your script or use [this](https://github.com/logpai/loghub/blob/master/Zookeeper/Zookeeper_2k.log)
+A sample log file named `sample_log.log` can be found [here](https://github.com/logpai/loghub/blob/master/Zookeeper/Zookeeper_2k.log) for testing purposes.
 
- 
+---
 
