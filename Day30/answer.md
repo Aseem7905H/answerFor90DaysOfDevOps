@@ -49,6 +49,6 @@ Kubernetes architecture is important, so make sure you spend a day understanding
 
 _Happy Learning :)_
 
- ![Linkedin](https://www.linkedin.com/in/aseem-hasan-706846257/)
+ [Linkedin](https://www.linkedin.com/in/aseem-hasan-706846257/)
 
 [← Previous Day](../day29/README.md) | [Next Day →](../day31/README.md)
